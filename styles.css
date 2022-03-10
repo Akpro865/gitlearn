@@ -1,3 +1,39 @@
 body {
-    background-color: aquamarine;
+    
+    padding: 2rem;
+}
+ header {
+     background-color: hsl(143, 79%, 65%);
+     padding: 1rem;
+     border-radius: 7px;
+ }
+.left {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(350, 92%, 48%);
+    font-size: 2rem;
+   
+}
+ ul {
+    list-style: none;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    font-size: 1.2rem;
+ }
+
+li {
+    margin-right: 2rem;
+}
+
+button {
+    margin-left: auto;
+    border-radius: 5px;
+    font-weight: 400;
+    background-color: #f6f4f0;
+    padding: 7px;
 }
