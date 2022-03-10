@@ -1,9 +1,9 @@
 body {
-    
+    background-color: rgb(152, 202, 155);
     padding: 2rem;
 }
  header {
-     background-color: hsl(143, 79%, 65%);
+     background-color: hsl(143, 78%, 52%);
      padding: 1rem;
      border-radius: 7px;
  }
@@ -13,7 +13,7 @@ body {
 
 a {
     text-decoration: none;
-    color: hsl(350, 92%, 48%);
+    color: rgb(255, 0, 43);
     font-size: 2rem;
    
 }
