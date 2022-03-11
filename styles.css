@@ -13,8 +13,12 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(255, 0, 43);
-    font-size: 2rem;
+    color: hwb(244 7% 9%);
+    font-size: 2.3rem;
+    border-right: solid;
+    border-right-width: 5px;
+    border-right-color: blueviolet;
+    padding-right: 20px;
    
 }
  ul {
@@ -32,10 +36,28 @@ li {
 
 button {
     margin-left: auto;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: 600;
-    background-color: hsl(12, 82%, 49%);
-    padding: 10px;
+    background-color: #f6f4f0;
+    padding: 7px;
+    background-color: orange;
     color: white;
     border: none;
+}
+
+.b1 {
+    padding: 10px;
+    background-color: #84e2eb;
+    border-left : solid;
+    border-left-width: 8px;
+    max-width: 180px;
+    font-weight: bold;
+    border-left-color: rgb(45, 89, 235);
+    border-radius: 5px;
+}
+
+.commands {
+    line-height: 2;
+    font-weight: 500;
+    font-size: 20px;
 }
