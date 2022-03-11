@@ -7,23 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git</title>
     <link rel="stylesheet" href="styles.css">
+ 
 </head>
 
 <body>
     <header>
         <div class="left">
-            <a href="#">MERN</a>
-            <ul>
+            <a class="mern" href="#">MERN</a>
+            <ul class="nav">
                 <li class="mar">Home</li>
                 <li>Service</li>
                 <li>Help</li>
-                <li>More</li>
+                <li><a href="./search.html" class="more">More</a></li>
             </ul>
             <button>LogIn</button>
         </div>
     </header>
-    <h1>Hello Git!</h1>
-    <p>Welcome to the new era of web developement.</p>
+    <h1 class="b1">Hello Git!</h1>
+    <p class="p1">Welcome to the new era of web developement.</p>
     <h2 class="b1">Git commands :</h2>
     <ol class="commands">
         <li>git init => inits a empty git repository</li>
@@ -33,7 +34,14 @@
         <li> git log => logs all commit</li>
         <li>git config --global alias.st status => stting shortcut</li>
         <li> git reset HEAD~1 = backs last commit to staging area</li>
-        <li>git clean -fd =></li>
+        <li>git clean -fd => deleting file and folder</li>
+        <li>git revert "id" => delets all change and creates new commit</li>
+        <li>git tag -a v1.0.1 -m "initial release" => tagging a version</li>
+        <li>git branch => gives available branches</li>
+        <li>git checkout "id" => goes to that time period code</li>
+        <li>git checkout master => bacs to last code</li>
+        <li>git branch "branchname" => switching branch</li>
+        <li>git merge icons => merge icon branch to master</li>
     </ol>
 </body>
 

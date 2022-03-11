@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p pid="118">Here are the Git commands which are being covered:</p>
+    <ul> 
+     <li><strong>git config</strong></li> 
+     <li><strong>git init</strong></li> 
+     <li><strong>git clone</strong></li> 
+     <li><strong>git add</strong></li> 
+     <li><strong>git commit</strong></li> 
+     <li><strong>git diff</strong></li> 
+     <li><strong>git reset</strong></li> 
+     <li><strong>git status</strong></li> 
+     <li><strong>git rm</strong></li> 
+     <li><strong>git log</strong></li> 
+     <li><strong>git show</strong></li> 
+     <li><strong>git tag</strong></li> 
+     <li><strong>git branch</strong></li> 
+     <li><strong>git checkout</strong></li> 
+     <li><strong>git merge</strong></li> 
+     <li><strong>git remote</strong></li> 
+     <li><strong>git push</strong></li> 
+     <li><strong>git pull</strong></li> 
+     <li><strong>git stash</strong></li> 
+    </ul>
+    <p pid="119">So, let's get started!</p>
+    <h2><strong>Git Commands</strong></h2>
+    <h3>git config</h3>
+    <p pid="121">Usage:&nbsp;<code>git config –global user.name “[name]”</code>&nbsp;&nbsp;</p>
+    <p pid="122">Usage:&nbsp;<code>git config –global user.email “[email address]”</code>&nbsp;&nbsp;</p>
+    <p pid="123">This command sets the author name and email address respectively to be used with your commits.</p>
+    
+    <h3>git init</h3>
+    <p pid="125">Usage:&nbsp;<code>git init [repository name]</code></p>
+    <p pid="230"><span id="_tmp_pre_3">&nbsp;</span></p>
+    <p pid="125">This command is used to start a new repository.</p>
+    
+    <h3>git clone</h3>
+    <p pid="128">Usage:&nbsp;<code>git clone [url]</code><span id="_tmp_pre_4">&nbsp;</span>&nbsp;</p>
+    <p pid="129">This command is used to obtain a repository from an existing URL.</p>
+    
+    <h3>git add</h3>
+    <p pid="131">Usage:&nbsp;<code>git add [file]</code><span id="_tmp_pre_5">&nbsp;</span>&nbsp;</p>
+    <p pid="132">This command adds a file to the staging area.</p>
+    
+    <p pid="134">Usage:&nbsp;<code>git add *</code><span id="_tmp_pre_6">&nbsp;</span>&nbsp;</p>
+    <p pid="135">This command adds one or more to the staging area.</p>
+    
+    <h3>git commit</h3>
+    <p pid="137">Usage:&nbsp;<code>git commit -m “[ Type in the commit message]”</code><span id="_tmp_pre_7">&nbsp;</span>&nbsp;</p>
+    <p pid="138">This command records or snapshots the file permanently in the version history.</p>
+
+    <p pid="140">Usage:&nbsp;<code>git commit -a</code><span id="_tmp_pre_8">&nbsp;</span>&nbsp;</p>
+    <p pid="141">This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.</p>
+ 
+    <h3>git diff</h3>
+    <p pid="143">Usage:&nbsp;<code>git diff</code><span id="_tmp_pre_9">&nbsp;</span>&nbsp;</p>
+    <p pid="144">This command shows the file differences which are not yet staged.</p>
+
+    <p pid="146">&nbsp;<code>Usage: git diff –staged</code><span id="_tmp_pre_10">&nbsp;</span></p>
+    <p pid="147">This command shows the differences between the files in the staging area and the latest version present.</p>
+  
+    <p pid="149">Usage:&nbsp;<code>git diff [first branch] [second branch]</code><span id="_tmp_pre_11">&nbsp;</span>&nbsp;</p>
+    <p pid="150">This command shows the differences between the two branches mentioned.</p>
+
+    <h3 pid="152">git reset</h3>
+    <p pid="154">Usage:&nbsp;<code>git reset [file]</code><span id="_tmp_pre_12">&nbsp;</span>&nbsp;</p>
+    <p pid="155">This command unstages the file, but it preserves the file contents.</p>
+
+    <p pid="157">Usage:&nbsp;<code>git reset [commit]</code><span id="_tmp_pre_13">&nbsp;</span>&nbsp;</p>
+    <p pid="158">This command undoes all the commits after the specified commit and preserves the changes locally.</p>
+    <p pid="160">Usage:&nbsp;<code>git reset –hard [commit]</code><span id="_tmp_pre_14">&nbsp;</span> This command discards all history and goes back to the specified commit.</p>
+  
+    <h3>git status</h3>
+    <p pid="163">Usage:&nbsp;<code>git status</code><span id="_tmp_pre_15">&nbsp;</span>&nbsp;</p>
+    <p pid="164">This command lists all the files that have to be committed.</p>
+    
+    <p pid="166">Usage:&nbsp;<code>git rm [file]</code><span id="_tmp_pre_16">&nbsp;</span>&nbsp;</p>
+    <p pid="167">This command deletes the file from your working directory and stages the deletion.</p>
+    <h3>git log</h3>
+    <p pid="169">Usage:&nbsp;<code>git log</code><span id="_tmp_pre_17">&nbsp;</span>&nbsp;</p>
+    <p pid="170">This command is used to list the version history for the current branch.</p>
+
+    <p pid="172">Usage:&nbsp;<code>git log –follow[file]</code><span id="_tmp_pre_18">&nbsp;</span>&nbsp;</p>
+    <p pid="173">This command lists version history for a file, including the renaming of files also.</p>
+  
+    <h3>git show</h3>
+    <p pid="175">Usage:&nbsp;<code>git show [commit]</code><span id="_tmp_pre_19">&nbsp;</span>&nbsp;</p>
+    <p pid="176">This command shows the metadata and content changes of the specified commit.</p>
+
+    <h3>git tag</h3>
+    <p pid="178" style="text-align: left;">Usage:&nbsp;<code>git tag [commitID]</code><span id="_tmp_pre_20">&nbsp;</span>&nbsp;</p>
+    <p pid="179">This command is used to give tags to the specified commit.</p>
+   
+    <h3>git branch</h3>
+    <p pid="181">Usage:&nbsp;<code>git branch</code><span id="_tmp_pre_21">&nbsp;</span>&nbsp;</p>
+    <p pid="182">This command lists all the local branches in the current repository.</p>
+ 
+    <p pid="184">Usage:&nbsp;<code>git branch [branch name]</code><span id="_tmp_pre_22">&nbsp;</span>&nbsp;</p>
+    <p pid="185">This command creates a new branch.</p>
+
+    <p pid="187">Usage:&nbsp;<code>git branch -d [branch name]</code><span id="_tmp_pre_23">&nbsp;</span>&nbsp;</p>
+    <p pid="188">This command deletes the feature branch.</p>
+ 
+    <h3>git checkout</h3>
+    <p pid="190">Usage:&nbsp;<code>git checkout [branch name]</code><span id="_tmp_pre_24">&nbsp;</span>&nbsp;</p>
+    <p pid="191">This command is used to switch from one branch to another.</p>
+   
+    <p pid="193">Usage:&nbsp;<code>git checkout -b [branch name]</code><span id="_tmp_pre_25">&nbsp;</span>&nbsp;</p>
+    <p pid="194">This command creates a new branch and also switches to it.</p>
+
+    <p pid="196" style="text-align: left;">Usage:&nbsp;<code>git merge [branch name]</code><span id="_tmp_pre_26">&nbsp;</span>&nbsp;</p>
+    <p pid="197">This command merges the specified branch’s history into the current branch.</p>
+
+    <h3>git remote</h3>
+    <p pid="199">Usage:&nbsp;<code>git remote add [variable name] [Remote Server Link]</code><span id="_tmp_pre_27">&nbsp;</span>&nbsp;</p>
+    <p pid="200">This command is used to connect your local repository to the remote server.</p>
+
+    <h3>git push</h3>
+    <p pid="202">Usage:&nbsp;<code>git push [variable name] master</code><span id="_tmp_pre_28">&nbsp;</span>&nbsp;</p>
+    <p pid="203">This command sends the committed changes of master branch to your remote repository.</p>
+
+    <p pid="205">Usage:&nbsp;<code>git push [variable name] [branch]</code><span id="_tmp_pre_29">&nbsp;</span>&nbsp;</p>
+    <p pid="206">This command sends the branch commits to your remote repository.</p>
+
+    <p pid="208">Usage:&nbsp;<code>git push –all [variable name]</code><span id="_tmp_pre_30">&nbsp;</span>&nbsp;</p>
+    <p pid="209">This command pushes all branches to your remote repository.</p>
+
+    <p pid="211">Usage:&nbsp;<code>git push [variable name] :[branch name]</code><span id="_tmp_pre_31">&nbsp;</span>&nbsp;</p>
+    <p pid="212">This command deletes a branch on your remote repository.</p>
+
+    <h3>git pull</h3>
+    <p pid="214">Usage:&nbsp;<code>git pull [Repository Link]</code><span id="_tmp_pre_32">&nbsp;</span>&nbsp;</p>
+    <p pid="215">This command fetches and merges changes on the remote server to your working directory.</p>
+>
+    <h3>git stash</h3>
+    <p pid="217">Usage:&nbsp;<code>git stash save</code><span id="_tmp_pre_33">&nbsp;</span>&nbsp;</p>
+    <p pid="218">This command temporarily stores all the modified tracked files.</p>
+
+    <p pid="220">Usage:&nbsp;<code>git stash pop</code><span id="_tmp_pre_34">&nbsp;</span>&nbsp;</p>
+    <p pid="221">This command restores the most recently stashed files.</p>
+  
+    <p pid="223">Usage:&nbsp;<code>git stash list</code><span id="_tmp_pre_35">&nbsp;&nbsp;</span></p>
+    <p pid="224">This command lists all stashed changesets.</p>
+ 
+    <p pid="226" style="text-align: left;">Usage:&nbsp;<code>git stash drop</code><span id="_tmp_pre_36">&nbsp;&nbsp;</span></p>
+    <p pid="227">This command discards the most recently stashed changeset.</p>
+
+    <p pid="229">Want to learn more about git commands? Here is a <a href="https://www.edureka.co/blog/git-tutorial/" rel="noopener" target="_blank">Git Tutorial</a> to get you started. Alternatively, you can take a top-down approach and start with this&nbsp;<a href="https://www.edureka.co/blog/devops-tutorial" rel="noopener" target="_blank">DevOps Tutorial.</a></p></div>
+                    </div>
+</body>
+</html>
